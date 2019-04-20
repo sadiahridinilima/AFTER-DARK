@@ -1,0 +1,29 @@
+﻿Build started 04-Apr-19 11:29:20 PM.
+     1>Project "C:\Users\Asus\Desktop\checkpoint 2\checkpoint 2\checkpoint 2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\checkpoint 2.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt iMain.cpp
+         iMain.cpp
+     1>c:\users\asus\desktop\checkpoint 2\checkpoint 2\imain.cpp(152): error C2601: 'iPassiveMouse' : local function definitions are illegal
+                 c:\users\asus\desktop\checkpoint 2\checkpoint 2\imain.cpp(101): this line contains a '{' which has not yet been matched
+     1>c:\users\asus\desktop\checkpoint 2\checkpoint 2\imain.cpp(162): error C2601: 'iMouseMove' : local function definitions are illegal
+                 c:\users\asus\desktop\checkpoint 2\checkpoint 2\imain.cpp(101): this line contains a '{' which has not yet been matched
+     1>c:\users\asus\desktop\checkpoint 2\checkpoint 2\imain.cpp(173): error C2601: 'iMouse' : local function definitions are illegal
+                 c:\users\asus\desktop\checkpoint 2\checkpoint 2\imain.cpp(101): this line contains a '{' which has not yet been matched
+     1>c:\users\asus\desktop\checkpoint 2\checkpoint 2\imain.cpp(199): error C2601: 'iKeyboard' : local function definitions are illegal
+                 c:\users\asus\desktop\checkpoint 2\checkpoint 2\imain.cpp(101): this line contains a '{' which has not yet been matched
+     1>c:\users\asus\desktop\checkpoint 2\checkpoint 2\imain.cpp(221): error C2601: 'iSpecialKeyboard' : local function definitions are illegal
+                 c:\users\asus\desktop\checkpoint 2\checkpoint 2\imain.cpp(101): this line contains a '{' which has not yet been matched
+     1>c:\users\asus\desktop\checkpoint 2\checkpoint 2\imain.cpp(283): error C2601: 'lap_variation' : local function definitions are illegal
+                 c:\users\asus\desktop\checkpoint 2\checkpoint 2\imain.cpp(101): this line contains a '{' which has not yet been matched
+     1>c:\users\asus\desktop\checkpoint 2\checkpoint 2\imain.cpp(292): error C2601: 'timer' : local function definitions are illegal
+                 c:\users\asus\desktop\checkpoint 2\checkpoint 2\imain.cpp(101): this line contains a '{' which has not yet been matched
+     1>c:\users\asus\desktop\checkpoint 2\checkpoint 2\imain.cpp(300): error C2601: 'main' : local function definitions are illegal
+                 c:\users\asus\desktop\checkpoint 2\checkpoint 2\imain.cpp(101): this line contains a '{' which has not yet been matched
+     1>c:\users\asus\desktop\checkpoint 2\checkpoint 2\imain.cpp(357): fatal error C1075: end of file found before the left brace '{' at 'c:\users\asus\desktop\checkpoint 2\checkpoint 2\imain.cpp(101)' was matched
+     1>Done Building Project "C:\Users\Asus\Desktop\checkpoint 2\checkpoint 2\checkpoint 2.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.20
